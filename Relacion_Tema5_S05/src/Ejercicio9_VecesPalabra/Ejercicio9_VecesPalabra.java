@@ -4,7 +4,7 @@ public class Ejercicio9_VecesPalabra {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String cadena = "Esa moto es una caca prefiero comprarme otra moto";
+		String cadena = "Moto vieja moto nueva moto bonita";
 		String palabra = "moto";
 		
 		System.out.println("La palabra '" + palabra + "' en la cadena '" + cadena + "'");
@@ -21,7 +21,7 @@ public class Ejercicio9_VecesPalabra {
 				if(i == cadenita.length-1){
 					palabra2 = palabra2 + cadenita[i];
 				}
-				if(palabra2.equals(palabra)){
+				if(palabra2.equalsIgnoreCase(palabra)){
 					contador++;
 				}
 				palabra2 = "";
