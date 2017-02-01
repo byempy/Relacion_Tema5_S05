@@ -16,11 +16,7 @@ public class Ejercicio3_Palindromo {
 			palabravuelta = palabravuelta + palabra.charAt(i);
 		}
 		
-		if(palabravuelta.equals(palabra)){
-			return true;
-		}else{
-			return false;
-		}
+		return palabravuelta.equals(palabra);
 	}
 
 }
