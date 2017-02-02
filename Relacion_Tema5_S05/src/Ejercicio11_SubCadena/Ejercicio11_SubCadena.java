@@ -18,9 +18,7 @@ public class Ejercicio11_SubCadena {
 		
 		sub[0] = '*';
 		
-		for(int i=0; i < sub.length; i++){
-			subcadena2 = subcadena2 + sub[i];
-		}
+		subcadena2 = String.valueOf(sub);
 		
 		cadena2 = cadena.replaceAll(subcadena, subcadena2);
 		
